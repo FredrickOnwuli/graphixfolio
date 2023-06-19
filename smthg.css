@@ -1,0 +1,157 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Hero Section */
+#hero {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 100px 0;
+  animation: slideIn 1s ease;
+}
+
+#hero h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+#hero p {
+  font-size: 18px;
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  animation: moveInBottom 1s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* About Section */
+#about {
+  background-color: #fff;
+  text-align: center;
+  padding: 100px 0;
+  animation: slideIn 1s ease;
+}
+
+#about h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+#about p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Portfolio Section */
+#portfolio {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 100px 0;
+  animation: slideIn 1s ease;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  animation: slideIn 1s ease;
+}
+
+.portfolio-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  animation: moveInBottom 1s ease;
+}
+
+.portfolio-item img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.portfolio-item h3 {
+  font-size: 20px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.portfolio-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #333;
+  text-align: center;
+  padding: 100px 0;
+  animation: slideIn 1s ease;
+}
+
+#contact h2 {
+  font-size: 24px;
+  color: #fff;
+}
+
+#contact p {
+  font-size: 16px;
+  color: #999;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  animation: moveInBottom 1s ease;
+}
+
+input,
+textarea {
+  width: 300px;
+  padding: 10px;
